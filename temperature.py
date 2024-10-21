@@ -6,7 +6,7 @@ def konversi_suhu(temp, unit):
     else:
         raise ValueError("Unit tidak valid. Gunakan 'C' atau 'F'.")
 
-# Input dari pengguna
+# Input dari user
 temp = float(input("Masukkan nilai suhu: "))
 unit = input("Masukkan unit suhu ('C' untuk Celsius, 'F' untuk Fahrenheit): ")
 
